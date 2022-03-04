@@ -1,0 +1,61 @@
+.About{
+    min-width: 500px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    position: fixed;
+}
+
+.Information {
+    
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+    ul {
+        width: 65%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+    }
+    li {
+        min-width: 140px;
+        
+    }
+    a {
+        text-decoration: none;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: 1rem;
+        font-weight: 550;
+        border-radius: 6px;
+        padding: 0px 12px 0px 12px;
+    }
+
+}
+
+.ProfileImage {
+    width: 50%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}

@@ -1,0 +1,21 @@
+.Project {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 650x;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    align-items: flex-start;
+    transition: all 0.4s ease;
+    h2, h4 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    h4{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+.Project:hover{
+    transform: scale(1.1);   
+}

@@ -1,0 +1,22 @@
+.Scroller{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.Projects {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
