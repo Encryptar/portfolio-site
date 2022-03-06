@@ -1,6 +1,7 @@
 .Scroller{
     width: 50%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     float: right;
     background-color: #dadada;
     display: flex;
@@ -19,4 +20,5 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }

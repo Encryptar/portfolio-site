@@ -2,18 +2,36 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 650x;
-    height: 100px;
-    padding: 20px 20px 20px 20px;
+    flex-wrap: wrap;
+    width: 530px;
+    height: 120px;
     align-items: flex-start;
     transition: all 0.4s ease;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: black;
+
     h2, h4 {
         margin-bottom: 0px;
         margin-top: 0px;
+        margin-left: 10px;
     }
     h4{
         text-transform: uppercase;
         letter-spacing: 1px;
+        margin-top: 10px;
+        
+    }
+    p {
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 85%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        max-width: 410px;
     }
 }
 .Project:hover{
